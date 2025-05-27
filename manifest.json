@@ -24,7 +24,7 @@
 		}
 	},
 	"share_target": {
-		"action": "/api/share-target",
+		"action": "/",
 		"method": "GET",
 		"params": {
             "title": "title",

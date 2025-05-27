@@ -9,5 +9,20 @@
     <body>
         <h1 align="center">ShareTarget</h1>
         <p>This WebApp tests the "share_target" functionality.</p>
+        <p>
+            Title: <span id="title"></span>
+        </p>
+        <p>
+            Text: <span id="text"></span>
+        </p>
+        <p>
+            URL: <span id="url"></span>
+        </p>
+        <script>
+            let params = new URL(window.location).searchParams;
+            document.getElementById("title").textContent = params.get("title");
+            document.getElementById("text").textContent = params.get("text");
+            document.getElementById("url").textContent = params.get("url");
+        </script>
     </body>
 </html>
