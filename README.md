@@ -2,7 +2,7 @@
 
 This repo contains a minimal example for a webapp that is capable of receiving shared data from other apps (eg. text, urls, files).
 
-**Important Code**: (`./www` directory)
+**Important Code**:
 - The `manifest.json` file contains a `share_target` section
 - The `index.html` file contains a `<script>` section, which parses the **shared data** (via GET Query-Parameters)
 
