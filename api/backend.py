@@ -1,13 +1,12 @@
+# required modules (see requirements.txt)
 import os.path
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 
+# initializie fastapi application
 app = FastAPI()
 
-@app.get("/api/share-target")
-def share_target(request: Request):
-    return request.query_params._dict
-
+# serve static files (from 'www' directory)
 app.mount(
     path="/",
     app=StaticFiles(
