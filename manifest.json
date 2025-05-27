@@ -1,0 +1,35 @@
+{
+	"author": "Anonymous",
+	"name": "ShareTarget-WebApp",
+	"short_name": "ShareTarget",
+	"description": "Watch and download YouTube audio/video without adds",
+	"orientation": "portrait",
+	"start_url": "/",
+	"scope": "/",
+	"display": "standalone",
+	"background_color": "black",
+	"theme_color": "black",
+	"icons": [
+		{
+			"src": "/icon.png",
+			"sizes": "48x48 72x72 96x96 128x128 192x192 256x256 512x512",
+			"type": "image/png"
+		}
+	],
+	"manifest_version": 2,
+	"version": "0.1",
+	"applications": {
+		"gecko": {
+			"id": "addon@example.com"
+		}
+	},
+	"share_target": {
+		"action": "/api/share-target",
+		"method": "GET",
+		"params": {
+            "title": "title",
+            "text": "text",
+			"url": "url"
+		}
+	}
+}
