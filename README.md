@@ -5,7 +5,6 @@ This repo contains a minimal example for a webapp that is capable of receiving s
 **Important Code**: (`./www` directory)
 - The `manifest.json` file contains a `share_target` section
 - The `index.html` file contains a `<script>` section, which parses the **shared data** (via GET Query-Parameters)
-- All other files in this repo are related to the Demo App (hosted on Vercel)
 
 **HINT:**
 The code has been tested on ...
