@@ -1,8 +1,8 @@
 {
-	"author": "Anonymous",
+	"author": "jfoggo",
 	"name": "ShareTarget-WebApp",
 	"short_name": "ShareTarget",
-	"description": "Watch and download YouTube audio/video without adds",
+	"description": "Receive shared data from other apps",
 	"orientation": "portrait",
 	"start_url": "/",
 	"scope": "/",
@@ -27,8 +27,8 @@
 		"action": "/",
 		"method": "GET",
 		"params": {
-            "title": "title",
-            "text": "text",
+			"title": "title",
+			"text": "text",
 			"url": "url"
 		}
 	}
